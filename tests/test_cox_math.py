@@ -106,7 +106,11 @@ def test_corrected_path_matches_independent_bound_constrained_optimizer():
             return value, np.r_[grad + l1, -grad + l1]
 
         fit = minimize(objective, np.zeros(8), jac=True, bounds=[(0, None)] * 8,
-                       method="L-BFGS-B", options={"ftol": 1e-14, "gtol": 1e-11, "maxiter": 10000})
+                       # Older SciPy builds can exhaust the default 20 line
+                       # searches near this tight optimum. Keep all numerical
+                       # tolerances unchanged; allow the oracle to finish.
+                       method="L-BFGS-B", options={"ftol": 1e-14, "gtol": 1e-11,
+                                                   "maxiter": 10000, "maxls": 50})
         assert fit.success
         assert_allclose(betas[:, k], fit.x[:4] - fit.x[4:], rtol=3e-5, atol=3e-7)
         assert_allclose(metadata["objective"][k], fit.fun, atol=1e-10)

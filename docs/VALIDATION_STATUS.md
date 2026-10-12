@@ -4,6 +4,26 @@ Historical numerical validation used 0.1.0.dev4; current packaging is 0.1.0.dev5
 No claim of complete equivalence with all official Scissor inputs or the original
 Seurat workflow. GPL-3.0-or-later; R is a development reference only.
 
+## Organization publication and Windows verification (2026-10-12)
+
+The original main commit `5e2b25ca` is published unchanged in
+`omicverse/py-Scissors`; the personal repository and fixed R development archive
+remain available. Publication verification on Windows found and fixed the
+atomic H5AD helper opening its fsync handle read-only. It now uses a writable
+handle, as required by Windows, without changing fitting or serialization.
+Golden manifest/review/session files explicitly retain LF checkout bytes.
+The symlink capability probe now points to an existing file. The independent
+SciPy L-BFGS-B oracle permits 50 line-search steps instead of 20; all convergence
+and coefficient/objective comparison tolerances are unchanged.
+
+After these portability changes, all **403 tests pass** on Windows with Python
+3.10.20, NumPy 1.26.4, SciPy 1.11.4, and AnnData 0.11.4, including all numerical
+reference comparisons, atomic H5AD roundtrip, no-clobber race, and rollback.
+A Windows optional-dependency CI job now exercises these same contracts.
+This is a platform follow-up; the archived full-data R results below were not
+rerun or replaced. OmicVerse and full notebook verification belong to their
+separate contribution PRs.
+
 ## Historical local checks completed (2026-10-10)
 
 - 387 core/preprocessing/AnnData/packaging tests passed under Python 3.12.14, NumPy 2.3.5,

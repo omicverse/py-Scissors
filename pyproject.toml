@@ -15,10 +15,10 @@ keywords = ["single-cell", "bulk RNA-seq", "phenotype", "Scissor", "bioinformati
 classifiers = ["Development Status :: 2 - Pre-Alpha", "Intended Audience :: Science/Research", "Programming Language :: Python :: 3"]
 
 [project.urls]
-Homepage = "https://github.com/hurry060215-tech/py-Scissor"
-Documentation = "https://github.com/hurry060215-tech/py-Scissor/blob/main/docs/API.md"
-Repository = "https://github.com/hurry060215-tech/py-Scissor"
-Issues = "https://github.com/hurry060215-tech/py-Scissor/issues"
+Homepage = "https://github.com/omicverse/py-Scissors"
+Documentation = "https://github.com/omicverse/py-Scissors/blob/main/docs/API.md"
+Repository = "https://github.com/omicverse/py-Scissors"
+Issues = "https://github.com/omicverse/py-Scissors/issues"
 "Original Scissor" = "https://github.com/sunduanchen/Scissor"
 
 [project.optional-dependencies]

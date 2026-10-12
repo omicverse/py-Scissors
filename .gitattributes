@@ -1,3 +1,6 @@
 # Golden reference hashes are defined over the original LF bytes.
 reference/upstream/** text eol=lf
 reference/fixtures/** text eol=lf
+reference/manifest.json text eol=lf
+reference/sessionInfo.txt text eol=lf
+reference/review/*.json text eol=lf

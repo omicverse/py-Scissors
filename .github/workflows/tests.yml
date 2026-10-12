@@ -40,7 +40,11 @@ jobs:
           cd /tmp
           /tmp/scissor-wheel/bin/python -I -c "import runpy; runpy.run_path('/tmp/scissor-wheel-smoke.py', run_name='__main__'); runpy.run_path('/tmp/scissor-quickstart.py', run_name='__main__')"
   optional:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
     env:
       OPENBLAS_NUM_THREADS: '1'
       OMP_NUM_THREADS: '1'

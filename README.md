@@ -1,6 +1,6 @@
 # py-Scissor
 
-[![Tests](https://github.com/hurry060215-tech/py-Scissor/actions/workflows/tests.yml/badge.svg)](https://github.com/hurry060215-tech/py-Scissor/actions/workflows/tests.yml)
+[![Tests](https://github.com/omicverse/py-Scissors/actions/workflows/tests.yml/badge.svg)](https://github.com/omicverse/py-Scissors/actions/workflows/tests.yml)
 [English](README.md) | [中文](README.zh-CN.md)
 
 **Phenotype-guided single-cell selection with an independent, R-free Python
@@ -28,11 +28,11 @@ Python 3.10 or newer. Install this repository, not the unrelated PyPI project
 ```bash
 python -m venv .venv
 # Activate .venv using your shell, then:
-python -m pip install "git+https://github.com/hurry060215-tech/py-Scissor.git"
+python -m pip install "git+https://github.com/omicverse/py-Scissors.git"
 ```
 
 For reproducible work, replace the branch with a reviewed commit SHA:
-`git+https://github.com/hurry060215-tech/py-Scissor.git@<commit-sha>`.
+`git+https://github.com/omicverse/py-Scissors.git@<commit-sha>`.
 For a local checkout: `python -m pip install .`; for a supplied wheel:
 `python -m pip install /path/to/scissor_py-0.1.0.dev5-py3-none-any.whl`.
 

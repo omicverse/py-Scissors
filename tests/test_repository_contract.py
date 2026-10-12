@@ -72,8 +72,10 @@ def contract_deriver():
 
 def test_threshold_derivation_only_changes_explicit_metadata(tmp_path):
     probe = tmp_path / "symlink-probe"
+    target = tmp_path / "target"
+    target.write_text("symlink capability probe")
     try:
-        probe.symlink_to(tmp_path / "target")
+        probe.symlink_to(target)
         probe.unlink()
     except OSError as exc:
         if os.name == "nt" and getattr(exc, "winerror", None) == 1314:

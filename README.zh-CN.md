@@ -6,7 +6,7 @@
 
 已完成明确范围内的全量 LUAD 与独立 R 对照：三类模型在两端显式 `thresh=1e-10` 时，全部 3 个 alpha、20λ、五折 CV 和冷 refit 通过原定验收容差；较松阈值的失败仍保留。全量预处理、三类完整 AnnData 流程和真实 OmicVerse 薄接口也已验证。见 [当前验证状态](docs/VALIDATION_STATUS.md) 与 [全量输入审计](docs/luad/INPUT_AUDIT.md)。这是研究开发版本，不保证任意输入、默认阈值或原始 Seurat 工作流完全等价。托管 CI 请查看仓库 Actions；OmicVerse 接口当前仍是待上游接受的贡献候选。
 
-发行名暂定 `scissor-py`，导入名为 `scissor_py`。2026-10-09 查询 PyPI：`pyscissor` 已被 netCDF/shapefile 项目占用；`scissor-py` 和 `py-scissor` 的 JSON 接口返回 404。404 不代表名称已保留。项目仓库：https://github.com/hurry060215-tech/py-Scissor 。源码仍在开发核验，尚未发布到 PyPI。
+发行名暂定 `scissor-py`，导入名为 `scissor_py`。2026-10-09 查询 PyPI：`pyscissor` 已被 netCDF/shapefile 项目占用；`scissor-py` 和 `py-scissor` 的 JSON 接口返回 404。404 不代表名称已保留。项目仓库：https://github.com/omicverse/py-Scissors 。源码仍在开发核验，尚未发布到 PyPI。
 
 ## 先读：两种数值语义
 
@@ -21,7 +21,7 @@
 
 ```bash
 # 仓库名是 py-Scissor，安装后导入名是 scissor_py
-python -m pip install "git+https://github.com/hurry060215-tech/py-Scissor.git"
+python -m pip install "git+https://github.com/omicverse/py-Scissors.git"
 # 或在源码根目录
 python -m pip install -e '.[test]'
 python -m pytest -q

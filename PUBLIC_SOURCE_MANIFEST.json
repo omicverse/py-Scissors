@@ -3,13 +3,13 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 134,
-      "sha256": "b46fc48e0d64553744356755be655d35431ba7e234cfd3d5b83bf10f1d7a9bff"
+      "bytes": 244,
+      "sha256": "8fa11f8acebd6c3b66f815bec877bb98cd4ca1b9ae1342595eb0dad0b51e3d97"
     },
     {
       "path": ".github/workflows/tests.yml",
-      "bytes": 1782,
-      "sha256": "e60073f1d5f388a538d8119b95df84fcffe4e5e160af414eb40f92b6300efc94"
+      "bytes": 1880,
+      "sha256": "5392a3d0dc187af7e6d84bcf3006346c14d3c269b822be2ff6ec4bbabd519a47"
     },
     {
       "path": ".gitignore",
@@ -43,13 +43,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 9739,
-      "sha256": "d904f3f8a6245170a7bcd06b8941852891a164bccb1003d5a1777e0d02ebbfbf"
+      "bytes": 9715,
+      "sha256": "4af715b61bb0ff1476cbf77b69f3966e54323235aef10d4b64ef64bae59e29fb"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 8145,
-      "sha256": "807551eaf4b570a460639c3c63885fb69a07b8d95c773d9a1ee560d20470d1c4"
+      "bytes": 8133,
+      "sha256": "63dad7c8db5a8a8cd0018513c049edebf23cfaa7a28a8d4863ef5cf1fe4de3a1"
     },
     {
       "path": "SECURITY.md",
@@ -88,8 +88,8 @@
     },
     {
       "path": "docs/VALIDATION_STATUS.md",
-      "bytes": 9861,
-      "sha256": "ea9c572107f570dfe58dc50db33cbdc3424c790235d1effc362c604463a4dd8f"
+      "bytes": 11087,
+      "sha256": "0b84087c5e354c7ea6849c980a54085ce48bdf2c1ef253ce1d9476bbc3fc57d2"
     },
     {
       "path": "docs/luad/INPUT_AUDIT.md",
@@ -133,8 +133,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 1270,
-      "sha256": "a56042ef8c49c3f5adac223c009aeca3cb3b1bad43bf45267e2ae2cdbe39810c"
+      "bytes": 1246,
+      "sha256": "98c8bbc6a98e09a50f736685b329e7bde124b46d34e1efd1ef57525ed6c78a44"
     },
     {
       "path": "reference/PROVENANCE.json",
@@ -373,8 +373,8 @@
     },
     {
       "path": "src/scissor_py/_anndata.py",
-      "bytes": 15176,
-      "sha256": "4e8a298323c7b3c8077bf7c5479be200d8b64cb4797592071be56d610c4532f5"
+      "bytes": 15251,
+      "sha256": "afb69e8740b0d7d25d1f17c75311ca4e8ce0aacbca1c7408392f2abb49836872"
     },
     {
       "path": "src/scissor_py/_api.py",
@@ -438,8 +438,8 @@
     },
     {
       "path": "tests/test_cox_math.py",
-      "bytes": 9181,
-      "sha256": "983c6335b59aa94dbef0fa4585e36b6ef48c02adf9366b2f67dc5cee74ed5c1a"
+      "bytes": 9474,
+      "sha256": "6ce8941bb025d5f4ca5dca8d80377898a608f4bd82913f2c6f9fdbe10489c145"
     },
     {
       "path": "tests/test_distribution_boundary.py",
@@ -488,8 +488,8 @@
     },
     {
       "path": "tests/test_repository_contract.py",
-      "bytes": 4913,
-      "sha256": "cd65281b4cc75d018dc4169d4175fdc5c736e2b0525501211b6e31d16f831026"
+      "bytes": 4983,
+      "sha256": "3927be030d1ed5a5bb3d4b1884b1112c07dbdf238fb689091eff4858913f178a"
     },
     {
       "path": "tests/test_validation_report.py",

@@ -256,7 +256,8 @@ def write_h5ad_atomic(adata, filename, *, overwrite=False):
         with tempfile.NamedTemporaryFile(dir=target.parent, prefix="."+target.name+"-", suffix=".h5ad", delete=False) as handle:
             temporary = Path(handle.name)
         adata.write_h5ad(temporary, convert_strings_to_categoricals=False)
-        with temporary.open("rb") as handle:
+        # Windows _commit (os.fsync) requires a writable file descriptor.
+        with temporary.open("r+b") as handle:
             os.fsync(handle.fileno())
         if overwrite:
             os.replace(temporary, target)
