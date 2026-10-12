@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo/logo.png" alt="py-Scissors: scissors and a phenotype-associated cell network" width="240">
+</p>
+
 [English](README.md) | 中文
 
 # scissor-py · Python Scissor 原型

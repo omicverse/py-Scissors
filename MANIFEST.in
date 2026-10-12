@@ -40,3 +40,6 @@ prune tutorials
 prune reference/luad
 global-exclude *.R *.r *.cpp *.c *.h *.ipynb Makevars
 include docs/ARCHITECTURE.md
+
+# Repository branding accompanies the README in source archives only.
+recursive-include logo *.svg *.png

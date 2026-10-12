@@ -33,8 +33,8 @@
     },
     {
       "path": "MANIFEST.in",
-      "bytes": 1669,
-      "sha256": "1df5f5b2c6b3a43340d41085e81a61e3eab0d0189c04890512fabb24caf46636"
+      "bytes": 1775,
+      "sha256": "83cb9a3b6eb774c412240540a148ada9852ebeb04aeec990f4c5c15288d7eb37"
     },
     {
       "path": "NOTICE",
@@ -43,13 +43,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 9715,
-      "sha256": "4af715b61bb0ff1476cbf77b69f3966e54323235aef10d4b64ef64bae59e29fb"
+      "bytes": 9848,
+      "sha256": "44263433dfeb1709460f5b7450f3053120757edb9a5fe8de855e84be2071b0dc"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 8133,
-      "sha256": "63dad7c8db5a8a8cd0018513c049edebf23cfaa7a28a8d4863ef5cf1fe4de3a1"
+      "bytes": 8266,
+      "sha256": "0786425d249b7f12ff5132fbd2f7c6bc758f0cf306683b1222e574e0948b3d48"
     },
     {
       "path": "SECURITY.md",
@@ -130,6 +130,16 @@
       "path": "examples/synthetic.py",
       "bytes": 1306,
       "sha256": "b7e829fda517d3d3d5c9282a60f43a8646e71ad867254c8128cc9f773439ba62"
+    },
+    {
+      "path": "logo/logo.png",
+      "bytes": 371543,
+      "sha256": "080d27d728666764bc155b53f1cc5ca5b492fbb404c521e3e977f5302a29ac65"
+    },
+    {
+      "path": "logo/logo.svg",
+      "bytes": 8625,
+      "sha256": "b55ce0b16adeb310518c00ba019c1ee19739ce04a04284d6ebfdfea9acd7cc42"
     },
     {
       "path": "pyproject.toml",

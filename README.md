@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo/logo.png" alt="py-Scissors: scissors and a phenotype-associated cell network" width="240">
+</p>
+
 # py-Scissor
 
 [![Tests](https://github.com/omicverse/py-Scissors/actions/workflows/tests.yml/badge.svg)](https://github.com/omicverse/py-Scissors/actions/workflows/tests.yml)
